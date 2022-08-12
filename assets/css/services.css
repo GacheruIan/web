@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Luckiest+Guy&family=Orbitron&display=swap');
+*{
+  margin: 0%;
+  padding: 0%; 
+}
+body {
+  /* ide scrollbars */      
+  margin-top: -4%;
+  overflow: hidden;
+  background-color:rgb(59, 12, 12);
+}
+.logo{
+  margin-top: 3%;
+}
+h1{
+  color: wheat;
+  margin-top: 1%;
+}
+h2{
+  color: red;
+  margin-top: 15%;
+}
+p{
+  color: wheat;
+  margin: top 2px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mid-section{
+  margin-left: 10%;
+  margin-top: -7%;
+}
+.logo{
+  margin-left: 10%;
+}
+.nav-bar{
+  display: flex;
+  flex-direction: row; 
+
+}
+
+li > a{
+  list-style: none;
+  color: black;
+  padding: 12px;
+}
+#my-img{
+  margin-left: 54%;
+  margin-top: -25%;
+  opacity: 0.7;
+
+}
+#my-img:hover{
+  opacity: 0.9;
+
+}
+#service-btn{
+  margin-left: 0%;
+  margin-top: 2%;
+  border-radius: 0 0 10px 0;
+  padding: 15px;
+  background-color:orange;
+
+}
+#service-btn:hover
+{
+  background-color: wheat;
+
+}
+
+ul{
+  display: flex;
+  margin-left:141%;
+  margin-top: 28%;
+  font-size: 20px;
+  list-style: none;
+}
+
+a:link { 
+  text-decoration: none; 
+  font-size: 20px;
+  font-weight:bold;
+}
+
+
+
+/* a:visited { 
+  text-decoration: none; 
+}    
+*/
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  margin-left:1%;
+  font-size:30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+  margin-top:-30%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* Whatsapp */
+  .fa-whatsapp{
+      background: rgb(9, 236, 9);
+      color: white;
+    }
+  /* linkedin */
+  .fa-linkedin{
+      background: #55ACEE;;
+      color: white;
+    }
+#services-page > a {
+  color:rgb(148, 148, 224);
+}
+.nav-links > ul > li > a
+{
+  color: wheat;
+  
+}
+.nav-links > ul > li > a:hover
+{
+  color: white;
+  
+}
+/* my clock */
+
+.countdown-clock{
+  background-color:rgb(180, 172, 172);
+  width: 470px;
+  height: 300px;
+  margin: auto auto;
+  margin-left: 40%;
+  position: absolute;
+}
+.inner-part{
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  width: 320px;
+  height: 175px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 75px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 5px;
+}
+#hours{
+  margin-left: 40px;
+  margin-top: 17%;
+}
+#minutes{
+  margin-top: 17%;
+}
+
+#seconds{
+  margin-top: 17%;
+}
+.head-clock{
+  background-color: gray;
+  margin-left: 130px;
+  width: 210px;
+  top: 0;
+  left: 0;
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'DynaPuff',cursive;
+}
+
